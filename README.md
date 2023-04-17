@@ -11,13 +11,22 @@ It shouldn't take you anymore than an hour to complete this setup. If you decide
 ### Programs Running
 Now to get to the meat and potatoes of the config... What is being utilized?
 - Qtile
-- picom for transparency effects and rounded corners
+- Picom for transparency effects and rounded corners
 - Fish shell (my preferred shell)
-- kitty (my preferred terminal)
-- htop as my system monitor
-- nitrogen for wallpapers
-- spictify for nice spotify
-- conky for shortcuts quick reference 
-- micro as a text editor
-- rofi as a launcher
-- pywal which will set background and automatically adjust colours (bundled with pywalfox for firefox colours)
+- Kitty (my preferred terminal)
+- Htop as my system monitor
+- Nitrogen for wallpapers (now mostly just pywal)
+- Spicetify for nice spotify
+- Conky for shortcuts quick reference 
+- Micro as a text editor
+- Rofi as a launcher
+- Pywal which will set background and automatically adjust colours (bundled with pywalfox for firefox colours)
+- Ranger for file management
+- Arandr for simple monitor organization
+## Process
+Once you launch Qtile for the first time you might be shocked to see the baren black screen with just a couple of icons. If you have multiple monitors you may also notice that the order of your monitors is messed up.
+### First steps
+If your monitors are messed up and you are on Linux enter the following command to download arandr.
+'''
+sudo apt install arandr
+'''
