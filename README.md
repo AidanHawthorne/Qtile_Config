@@ -27,6 +27,6 @@ Now to get to the meat and potatoes of the config... What is being utilized?
 Once you launch Qtile for the first time you might be shocked to see the baren black screen with just a couple of icons. If you have multiple monitors you may also notice that the order of your monitors is messed up.
 ### First steps
 If your monitors are messed up and you are on Linux enter the following command to download arandr.
-'''
+```
 sudo apt install arandr
-'''
+```
