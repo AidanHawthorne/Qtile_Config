@@ -96,7 +96,7 @@ keys = [
     
     # Close windows
     Key([mod, "shift"], "c", lazy.window.kill(), desc = "Kill focused window"),
-    
+   
 # Close, logout and reset Qtile
     Key([mod, "control"], "r", lazy.restart(), desc = "Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc = "Shutdown Qtile"),
