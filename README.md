@@ -40,6 +40,7 @@ Next were going to fire through downloading a bunch of dependencies.
 ```
 sudo apt install picom
 ```
+Once you have pywal installed set your wallpaper to whatever you want or the one provided and use pywal to generate color schemes. You should do this now or else it will break some of the other programs provided config files.
 ### Htop
 ```
 sudo apt install htop
@@ -72,4 +73,4 @@ If you want further customization you can install oh my fish at https://github.c
 sudo apt install kitty
 ```
 ### The fun part
-You now finally have all the dependencies installed and now you just need to download their corresponding config files. Once you have all the config files downloaded and moved to their respective folders in the .config directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). From here on out I will be directing you on how to make changes to specific aspects so that you can truly make this your own.
+You now finally have all the dependencies installed and now you just need to download their corresponding config files. Once you have all the config files downloaded and moved to their respective folders in the .config directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. From here on out I will be directing you on how to make changes to specific aspects so that you can truly make this your own.
