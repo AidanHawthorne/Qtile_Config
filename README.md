@@ -82,6 +82,6 @@ Probably my favourite of these few bonus programs. It's a simple script that giv
 ### Pipes
 Probably one of the most common program you will see in screenshots of peoples desktop. The instructions to install can be found here https://github.com/pipeseroni/pipes.sh.
 ### Desktop with the eye candy
-![Screenshot](Images/desktop2.png)
+![Screenshot](Images/desktop3.png)
 ## Your journey
 In this section I will give you a brief overview of where to go to change specific things. The rest will be up to googling and reading documentation. There is a little bit of a learning curve when you start customizing it but it is worth it when you have your own fully custom desktop environment suited to your needs.
