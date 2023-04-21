@@ -73,4 +73,14 @@ If you want further customization you can install oh my fish at https://github.c
 sudo apt install kitty
 ```
 ### The fun part
-You now finally have all the dependencies installed and now you just need to download their corresponding config files. Once you have all the config files downloaded and moved to their respective folders in the .config directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. From here on out I will be directing you on how to make changes to specific aspects so that you can truly make this your own.
+You now finally have all the dependencies installed and now you just need to download their corresponding config files. Once you have all the config files downloaded and moved to their respective folders in the .config/ directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. 
+## Bonus programs for those juicy screenshots
+### Cava
+Cava is an audio visualizer you can customize to match your color scheme and can be a nice addition to any screenshots. To get it go to https://github.com/karlstav/cava and follow their instructions
+### Color Scripts
+Probably my favourite of these few bonus programs. It's a simple script that give you custom ascii art each time you open a terminal. To install it go to https://gitlab.com/dwt1/shell-color-scripts and follow the instructions.
+### Pipes
+Probably one of the most common program you will see in screenshots of peoples desktop. The instructions to install can be found here https://github.com/pipeseroni/pipes.sh.
+### Desktop with the eye candy for the picture.
+## Your journey
+In this section I will give you a brief overview of where to go to change specific things. The rest will be up to googling and reading documentation. There is a little bit of a learning curve when you start customizing it but it is worth it when you have your own fully custom desktop environment suited to your needs.
