@@ -85,3 +85,9 @@ Probably one of the most common program you will see in screenshots of peoples d
 ![Screenshot](Images/desktop3.png)
 ## Your journey
 In this section I will give you a brief overview of where to go to change specific things. The rest will be up to googling and reading documentation. There is a little bit of a learning curve when you start customizing it but it is worth it when you have your own fully custom desktop environment suited to your needs.
+### The bar and shortcuts
+Most of your editig you want to do will be happening in your qtile config file. Open your command window and enter ```micro ~/.config/qtile/config.py```. Once you are in the folder you can begin navigating the folder. I have added comments to the file outlining what certain parts do. You can ```ctrl+f``` to find what you are looking for (bar, color, shortcuts, and layouts should cover everything you need). Once you find what you want to change simply begin editing. If you want to check how a change will look hit ```ctrl+s``` in micro and then ```mod+ctrl+r``` to refresh qtile and if the change is valid it will show. If however you notic qtile does not update there is an error somehwere in the change you made.
+### Transparency and window margins
+If you want to adjust the transparency settings, get rid of the rounded corners or maybe you dont like the margins, you will need to head to the picom config. To edit the file type ```micro picom.conf``` while in the home directory (I keep my conky and picom config in my home directory because I was having problems and only that seemed to solve it). You will find everything you need here to edit the appearances of your windows.
+### The rest
+With all the of the programs it is much of the same. I would start with editing your qtile config and then moving down the chain of config files if it is necessary (usually only conky will need changes if you add shortcuts, more editing will be needed if you decide to change color schemes).
