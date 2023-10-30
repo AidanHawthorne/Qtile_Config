@@ -23,6 +23,9 @@ Now to get to the meat and potatoes of the config... What is being utilized?
 - Pywal which will set background and automatically adjust colours (bundled with pywalfox for firefox colours)
 - Ranger for file management
 - Arandr for simple monitor organization
+- VSCode
+- PyCharm
+- Spotify
 ## Process
 Once you launch Qtile for the first time you might be shocked to see the baren black screen with just a couple of icons. If you have multiple monitors you may also notice that the order of your monitors is messed up.
 ### First steps
@@ -73,7 +76,8 @@ If you want further customization you can install oh my fish at https://github.c
 sudo apt install kitty
 ```
 ### The fun part
-You now finally have all the dependencies installed and now you just need to download their corresponding config files. Once you have all the config files downloaded and moved to their respective folders in the .config/ directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. 
+You now finally have all the dependencies installed and now you just need to download their corresponding config files. For the qtile specific dot files make sure you maintain the folder structure while downloading so that it works seemlessly with the config. Once you have all the config files downloaded and moved to their respective folders in the .config/ directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. 
+*** Note that the qtile config.py references Spotify, VSCode, and PyCharm. Either install them or remove all references to them in config.py.
 ## Bonus programs for those juicy screenshots
 ### Cava
 Cava is an audio visualizer you can customize to match your color scheme and can be a nice addition to any screenshots. To get it go to https://github.com/karlstav/cava and follow their instructions
