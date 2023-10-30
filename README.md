@@ -43,7 +43,12 @@ Next were going to fire through downloading a bunch of dependencies.
 ```
 sudo apt install picom
 ```
-Once you have pywal installed set your wallpaper to whatever you want or the one provided and use pywal to generate color schemes. You should do this now or else it will break some of the other programs provided config files.
+### Nitrogen
+Install nitrogn to set and change your background picture.
+```
+sudo apt install nitrogen
+```
+Find a background you like and then set it using nitrogen. https://gitlab.com/dwt1/wallpapers has a large collection of nice wallpapers. The one in the pictures is 0277.jpg from that collection.
 ### Htop
 ```
 sudo apt install htop
@@ -70,14 +75,18 @@ sudo apt install conky-all
 ```
 sudo apt install fish
 ```
+To set fish as your default shell simply enter ```which fish``` into your terminal and copy the path it returns. Then enter ```chsh``` and paste the path you copied.
 If you want further customization you can install oh my fish at https://github.com/oh-my-fish/oh-my-fish. It gives you the ability to download themes and other great things.
 ### Kitty
 ```
 sudo apt install kitty
 ```
 ### The fun part
-You now finally have all the dependencies installed and now you just need to download their corresponding config files. For the qtile specific dot files make sure you maintain the folder structure while downloading so that it works seemlessly with the config. Once you have all the config files downloaded and moved to their respective folders in the .config/ directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing). You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```. 
-*** Note that the qtile config.py references Spotify, VSCode, and PyCharm. Either install them or remove all references to them in config.py.
+You now finally have all the dependencies installed and now you just need to download their corresponding config files. For the qtile specific dot files make sure you maintain the folder structure while downloading so that it works seemlessly with the config. Once you have all the config files downloaded and moved to their respective folders in the .config/ directory you will have a working Qtile rice (rice is just a word people like to use for making a desktop environment visual appealing).  
+Now that everything is installed run the command ```wal -i -n```. This will generate a colorscheme based off your background colors and will apply it to most programs installed above. The main exception being QTile with which you will manually have to figure out your colorscheme based off the colors found in ```.config/wal/```.   
+You may notice your micro is not copying your terminal colors. This can be easily fixed by entering micro and hitting ctrl-E followed by ```set colorscheme simple```.  
+*** Note that the qtile config.py references Spotify, VSCode, and PyCharm. Either install them or remove all references to them in config.py.  
+Also, if you want to keep a clean file system than look into adding folders to your path for your designated shell (if you followed this it should be fish). This will allow you to put files you want to run in autostart.sh in a folder and still have it run.
 ## Bonus programs for those juicy screenshots
 ### Cava
 Cava is an audio visualizer you can customize to match your color scheme and can be a nice addition to any screenshots. To get it go to https://github.com/karlstav/cava and follow their instructions
